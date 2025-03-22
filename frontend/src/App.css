@@ -5,11 +5,11 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background-color: #87A5DA; /* Light blue background */
+
   font-family: Arial, sans-serif;
 }
 
-/* Outer container to ensure the form is centered */
+
 .outer-container {
   width: 100vw;
   height: 100vh;
@@ -18,7 +18,7 @@ body, html {
   align-items: center;
 }
 
-/* Centered form box */
+
 .page-container {
   display: flex;
   justify-content: center;
@@ -26,9 +26,8 @@ body, html {
   width: 100%;
 }
 
-/* Form box styling */
 .form-box {
-  background-color: #87A5DA; /* Darker blue */
+  background-color: #87A5DA; 
   padding: 30px;
   border-radius: 5px;
   text-align: left;
@@ -38,7 +37,7 @@ body, html {
   border: 2px solid black;
 }
 
-/* Heading */
+
 h1 {
   text-align: center;
   margin-bottom: 20px;
@@ -47,7 +46,7 @@ h1 {
   color: black;
 }
 
-/* Label and input alignment */
+
 .input-group {
   display: flex;
   align-items: center;
@@ -55,18 +54,18 @@ h1 {
   margin-bottom: 15px;
 }
 
-/* Label styling */
+
 .input-group label {
   font-size: 16px;
-  width: 140px; /* Ensure all labels align */
+  width: 140px; 
   text-align: left;
   font-weight: bold;
 }
 
-/* Styled Input Fields */
+
 .formatted-input {
   flex-grow: 1;
-  width: 200px; /* Ensures all input fields are the same size */
+  width: 200px; 
   padding: 8px;
   border-radius: 5px;
   border: 2px solid black;
@@ -74,14 +73,14 @@ h1 {
   background-color: white;
 }
 
-/* Buttons */
+
 .button-group {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-/* Save and Retrieve Buttons */
+
 .button {
   width: 48%;
   padding: 10px;
