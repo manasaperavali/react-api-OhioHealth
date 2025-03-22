@@ -1,0 +1,104 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #87A5DA; /* Light blue background */
+  font-family: Arial, sans-serif;
+}
+
+/* Outer container to ensure the form is centered */
+.outer-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered form box */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Form box styling */
+.form-box {
+  background-color: #87A5DA; /* Darker blue */
+  padding: 30px;
+  border-radius: 5px;
+  text-align: left;
+  width: 400px;
+  color: black;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  border: 2px solid black;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Label and input alignment */
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.input-group label {
+  font-size: 16px;
+  width: 140px; /* Ensure all labels align */
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Styled Input Fields */
+.formatted-input {
+  flex-grow: 1;
+  width: 200px; /* Ensures all input fields are the same size */
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Save and Retrieve Buttons */
+.button {
+  width: 48%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid white;
+  background: #0047AB;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background: white;
+  color: #0047AB;
+  border: 2px solid #0047AB;
+}
