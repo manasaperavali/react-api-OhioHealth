@@ -29,13 +29,17 @@ x-api-key: your-secret-key
 
 The secret key is configured in the backend's appsettings.json and passed in the frontend through axios headers.
 
-Example API call using PowerShell:
+**Example API call using PowerShell:**
 
 $headers = @{ "x-api-key" = "your-secret-key" }
 
 Invoke-WebRequest -Uri "http://localhost:5250/api/user" `
   -Method GET `
   -Headers $headers
+  
+<img width="674" alt="image" src="https://github.com/user-attachments/assets/0ce7e836-8e0d-4764-aef7-46b46c3aa263" />
+
+The above screenshot shows a successful GET request using an API key to retrieve all user data from the backend API. The server returned a 200 OK status, confirming that the API key is valid and data retrieval is functioning properly.
 
 
 **Functionality Overview**
@@ -92,9 +96,7 @@ mike - new york - 2023
 
 The above image response confirms a successful POST request to the API with a valid API key. The user data (peravali, dallas, 2021) was saved, returning a 201 Created status. This verifies that API key validation and data insertion are working as expected.
 
-<img width="674" alt="image" src="https://github.com/user-attachments/assets/0ce7e836-8e0d-4764-aef7-46b46c3aa263" />
 
-The above screenshot shows a successful GET request using an API key to retrieve all user data from the backend API. The server returned a 200 OK status, confirming that the API key is valid and data retrieval is functioning properly.
 
 
 
